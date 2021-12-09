@@ -1,3 +1,6 @@
+---
+layout: default
+---
 [xde-theme-radar -- read me first file.  2014-09-12]: #
 
 xde-theme-radar

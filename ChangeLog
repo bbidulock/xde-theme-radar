@@ -1,0 +1,80 @@
+# created with git log --stat=76 -M -C -500|fmt -sct -w80
+
+commit ffb3aefab035d0c7d2fa161122ee0c5aa62ac85c
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Fri Sep 12 15:39:32 2014 -0600
+
+    added adwm style
+
+ Makefile.am        | 34 ++++++++++++++++++----------------
+ configure.template |  6 ++++++
+ 2 files changed, 24 insertions(+), 16 deletions(-)
+
+commit af48d8c7b8535e7e516332daafef36e679dc8c25
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sun Aug 17 17:16:30 2014 -0600
+
+    add themerc file
+
+ Makefile.am   |  3 ++-
+ theme/themerc | 70 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 72 insertions(+), 1 deletion(-)
+
+commit 177439b1e3c3cf6c9a5b10170fe7df8cc828c0c0
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Sat Jan 25 05:14:42 2014 -0700
+
+    added waimea support
+
+ Makefile.am        | 32 +++++++++++++++++---------------
+ configure.template |  6 ++++++
+ 2 files changed, 23 insertions(+), 15 deletions(-)
+
+commit 04fe39e80a7c198a23acd5ac79ebceb564680590
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 17:51:54 2013 -0700
+
+    updated description
+
+ README | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit cef321316c91b40021f857f86c0da1eada190770
+Author: Brian Bidulock <bidulock@openss7.org>
+Date:   Mon Dec 23 15:12:25 2013 -0700
+
+    initial commit
+
+ .gitignore                               |  12 +++
+ AUTHORS                                  |   3 +
+ COPYING                                  |  58 ++++++++++++
+ Makefile.am                              |  72 +++++++++++++++
+ NEWS                                     |  10 +++
+ README                                   |  65 ++++++++++++++
+ THANKS                                   |   3 +
+ autogen.sh                               |  19 ++++
+ configure.template                       | 126 +++++++++++++++++++++++++++
+ images/antenna.jpg                       | Bin 0 -> 576958 bytes
+ images/asr1.jpg                          | Bin 0 -> 269960 bytes
+ images/asr1_centered.jpg                 | Bin 0 -> 300292 bytes
+ images/asr2.jpg                          | Bin 0 -> 354957 bytes
+ images/asr3.jpg                          | Bin 0 -> 393440 bytes
+ images/asr3_enhanced.jpg                 | Bin 0 -> 499304 bytes
+ images/choice/asr2.jpg                   |   1 +
+ images/choice/asr3_enhanced.jpg          |   1 +
+ images/choice/dingli.jpg                 |   1 +
+ images/choice/memphis_centered.jpg       |   1 +
+ images/choice/radar.jpg                  |   1 +
+ images/choice/radar_antenna_centered.jpg |   1 +
+ images/choice/radar_centered.jpg         |   1 +
+ images/dingli.jpg                        | Bin 0 -> 477121 bytes
+ images/memphis.jpg                       | Bin 0 -> 381380 bytes
+ images/memphis_centered.jpg              | Bin 0 -> 325272 bytes
+ images/radar.jpg                         | Bin 0 -> 323635 bytes
+ images/radar_antenna.jpg                 | Bin 0 -> 364047 bytes
+ images/radar_antenna_centered.jpg        | Bin 0 -> 238903 bytes
+ images/radar_centered.jpg                | Bin 0 -> 397226 bytes
+ images/radar_rl.jpg                      | Bin 0 -> 480943 bytes
+ theme/style                              |  51 +++++++++++
+ theme/theme.ini                          |  84 ++++++++++++++++++
+ 32 files changed, 510 insertions(+)
